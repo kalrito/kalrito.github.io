@@ -1,0 +1,2254 @@
+<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="en">
+
+<head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+        <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+        <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+        <title>Seong Kim's Portfolio page</title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Sora:wght@600;800&amp;display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet" />
+        <!-- Font Style -->
+        <script id="tailwind-config">
+                tailwind.config = {
+                        darkMode: "class",
+                        theme: {
+                                extend: {
+                                        "colors": {
+                                                "on-primary": "#490080",
+                                                "tertiary-container": "#ff516a",
+                                                "surface": "#0b1326",
+                                                "surface-container-high": "#222a3d",
+                                                "primary-fixed-dim": "#ddb7ff",
+                                                "secondary-fixed-dim": "#2fd9f4",
+                                                "inverse-primary": "#842bd2",
+                                                "on-surface": "#dae2fd",
+                                                "surface-container-lowest": "#060e20",
+                                                "on-error-container": "#ffdad6",
+                                                "primary-fixed": "#f0dbff",
+                                                "tertiary-fixed-dim": "#ffb2b7",
+                                                "error": "#ffb4ab",
+                                                "background": "#0b1326",
+                                                "on-secondary-container": "#00515d",
+                                                "on-background": "#dae2fd",
+                                                "on-secondary": "#00363e",
+                                                "primary-container": "#b76dff",
+                                                "surface-dim": "#0b1326",
+                                                "outline-variant": "#4d4354",
+                                                "on-tertiary-fixed-variant": "#92002a",
+                                                "inverse-surface": "#dae2fd",
+                                                "surface-container-highest": "#2d3449",
+                                                "on-secondary-fixed-variant": "#004e5a",
+                                                "on-tertiary-fixed": "#40000d",
+                                                "primary": "#ebf2ae",
+                                                "tertiary": "#ffb2b7",
+                                                "on-surface-variant": "#cfc2d6",
+                                                "inverse-on-surface": "#283044",
+                                                "on-secondary-fixed": "#001f25",
+                                                "on-primary-fixed": "#2c0051",
+                                                "error-container": "#93000a",
+                                                "on-error": "#690005",
+                                                "surface-variant": "#2d3449",
+                                                "on-primary-fixed-variant": "#6900b3",
+                                                "secondary-fixed": "#a2eeff",
+                                                "surface-container-low": "#131b2e",
+                                                "surface-container": "#171f33",
+                                                "on-primary-container": "#400071",
+                                                "on-tertiary-container": "#5b0017",
+                                                "surface-bright": "#31394d",
+                                                "secondary": "#5de6ff",
+                                                "on-tertiary": "#67001b",
+                                                "secondary-container": "#00cbe6",
+                                                "tertiary-fixed": "#ffdadb",
+                                                "surface-tint": "#ddb7ff",
+                                                "outline": "#988d9f"
+                                        },
+                                        "borderRadius": {
+                                                "DEFAULT": "0.125rem",
+                                                "lg": "0.25rem",
+                                                "xl": "0.5rem",
+                                                "full": "0.75rem"
+                                        },
+                                        "spacing": {
+                                                "section-gap": "120px",
+                                                "stack-sm": "8px",
+                                                "stack-md": "16px",
+                                                "stack-lg": "32px",
+                                                "margin-mobile": "16px",
+                                                "unit": "4px",
+                                                "gutter": "24px",
+                                                "container-max": "1280px"
+                                        },
+                                        "fontFamily": {
+                                                "label-code": [
+                                                        "JetBrains Mono"
+                                                ],
+                                                "body-md": [
+                                                        "Inter"
+                                                ],
+                                                "headline-md": [
+                                                        "Sora"
+                                                ],
+                                                "body-lg": [
+                                                        "Inter"
+                                                ],
+                                                "display-lg": [
+                                                        "Sora"
+                                                ],
+                                                "display-lg-mobile": [
+                                                        "Sora"
+                                                ],
+                                                "headline-sm": [
+                                                        "Sora"
+                                                ],
+                                                "label-caps": [
+                                                        "JetBrains Mono"
+                                                ]
+                                        },
+                                        "fontSize": {
+                                                "label-code": [
+                                                        "14px",
+                                                        {
+                                                                "lineHeight": "1.4",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "body-md": [
+                                                        "16px",
+                                                        {
+                                                                "lineHeight": "1.6",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "headline-md": [
+                                                        "32px",
+                                                        {
+                                                                "lineHeight": "1.3",
+                                                                "fontWeight": "600"
+                                                        }
+                                                ],
+                                                "body-lg": [
+                                                        "18px",
+                                                        {
+                                                                "lineHeight": "1.7",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "display-lg": [
+                                                        "48px",
+                                                        {
+                                                                "lineHeight": "1.1",
+                                                                "letterSpacing": "-0.02em",
+                                                                "fontWeight": "800"
+                                                        }
+                                                ],
+                                                "display-lg-mobile": [
+                                                        "36px",
+                                                        {
+                                                                "lineHeight": "1.2",
+                                                                "letterSpacing": "-0.02em",
+                                                                "fontWeight": "800"
+                                                        }
+                                                ],
+                                                "headline-sm": [
+                                                        "24px",
+                                                        {
+                                                                "lineHeight": "1.4",
+                                                                "fontWeight": "600"
+                                                        }
+                                                ],
+                                                "label-caps": [
+                                                        "12px",
+                                                        {
+                                                                "lineHeight": "1.0",
+                                                                "letterSpacing": "0.1em",
+                                                                "fontWeight": "500"
+                                                        }
+                                                ]
+                                        }
+                                },
+                        },
+                }
+        </script>
+        <style>
+                .glitch-hover:hover {
+                        text-shadow: 2px 0 #5de6ff, -2px 0 #ddb7ff;
+                        animation: glitch-skew 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+                }
+
+                @keyframes glitch-skew {
+                        0% {
+                                transform: skew(0deg);
+                        }
+
+                        20% {
+                                transform: skew(-5deg);
+                        }
+
+                        40% {
+                                transform: skew(5deg);
+                        }
+
+                        60% {
+                                transform: skew(-2deg);
+                        }
+
+                        80% {
+                                transform: skew(2deg);
+                        }
+
+                        100% {
+                                transform: skew(0deg);
+                        }
+                }
+
+                .glow-border {
+                        border: 1px solid theme('colors.primary');
+                        box-shadow: inset 0 0 10px rgba(221, 183, 255, 0.1);
+                        transition: all 0.3s ease;
+                }
+
+                .glow-border:hover {
+                        box-shadow: inset 0 0 15px rgba(221, 183, 255, 0.3), 0 0 10px rgba(93, 230, 255, 0.4);
+                        border-color: theme('colors.secondary');
+                }
+
+                .btn-primary {
+                        background-color: theme('colors.primary');
+                        color: theme('colors.on-primary');
+                        transition: all 0.3s ease;
+                }
+
+                .btn-primary:hover {
+                        box-shadow: 0 0 15px rgba(93, 230, 255, 0.6);
+                        transform: scale(1.02);
+                }
+
+                .project-card {
+                        background-color: theme('colors.surface-container-high');
+                        border-radius: theme('borderRadius.DEFAULT');
+                        overflow: hidden;
+                        border: 1px solid transparent;
+                        transition: all 0.3s ease;
+                }
+
+                .project-card:hover {
+                        border-color: theme('colors.primary');
+                        box-shadow: 0 0 20px rgba(221, 183, 255, 0.1);
+                }
+
+                .project-overlay {
+                        background: linear-gradient(to top, rgba(11, 19, 38, 0.9) 0%, rgba(11, 19, 38, 0.4) 100%);
+                        transition: opacity 0.3s ease;
+                }
+
+                .project-card:hover .project-overlay {
+                        opacity: 0.2;
+                }
+
+                .project-content {
+                        transform: translateY(0);
+                        transition: transform 0.3s ease;
+                }
+
+                .project-card:hover .project-content {
+                        transform: translateY(-8px);
+                }
+        </style>
+</head>
+
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col">
+        <!-- TopAppBar -->
+        <header
+                class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-primary/20 shadow-[0_0_15px_rgba(221,183,255,0.1)] transition-all duration-300 ease-out">
+                <div
+                        class="flex justify-between items-center px-margin-mobile md:px-gutter max-w-container-max mx-auto h-20">
+                        <!-- Leading: Icon & Brand -->
+                        <div class="flex items-center gap-stack-sm text-primary hover:scale-105 hover:shadow-[0_0_10px_rgba(93,230,255,0.4)] transition-all duration-300 active:scale-95 cursor-pointer"
+                                onclick="window.scrollTo(0,0)">
+                                <span class="material-symbols-outlined text-headline-sm"
+                                        style="font-variation-settings: 'FILL' 1;">translate</span>
+                                <span
+                                        class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg tracking-tighter uppercase">Seong
+                                        Kim</span>
+                        </div>
+                        <!-- Mobile Nav (Hidden on md) -->
+                        <nav class="md:hidden flex gap-stack-md font-label-code text-label-code">
+                                <a class="text-secondary border-b-2 border-secondary pb-1" href="#about">ABOUT</a>
+                                <a class="text-on-surface hover:text-primary transition-colors" href="#works">WORKS</a>
+                        </nav>
+                        <!-- Trailing: Action -->
+                        <a class="hidden md:flex items-center justify-center px-4 py-2 bg-primary text-on-primary font-label-caps text-label-caps rounded uppercase hover:scale-105 hover:shadow-[0_0_10px_rgba(93,230,255,0.4)] transition-all duration-300 active:scale-95"
+                                href="#contact">
+                                CONTACT
+                        </a>
+                        <!-- Hamburger for mobile (Optional, simplified for this layout) -->
+                        <a class="md:hidden flex items-center justify-center p-2 text-primary border border-primary rounded hover:bg-primary/10 transition-colors"
+                                href="#contact">
+                                <span class="material-symbols-outlined">mail</span>
+                        </a>
+                </div>
+        </header>
+        <main
+                class="flex-grow pt-24 pb-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto w-full flex flex-col gap-section-gap">
+                <!-- About Section -->
+                <section class="flex flex-col md:flex-row items-center gap-stack-lg py-12 scroll-mt-24" id="about">
+                        <div class="flex-1 space-y-stack-md text-center md:text-left">
+                                <h1
+                                        class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary uppercase">
+                                        Translating Worlds.
+                                </h1>
+                                <p class="font-headline-sm text-headline-sm text-on-surface-variant font-light">
+                                        Utmost to ensure both quality and accuracy.
+                                </p>
+                                <div class="glow-border p-6 rounded-lg bg-surface-container-low mt-stack-md text-left">
+                                        <p class="font-body-lg text-body-lg text-on-surface leading-relaxed mb-4">
+                                                Have any plans to enter the Korean market?<br>Or have a plan, but
+                                                haven’t found the right localization expert?
+                                        </p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">
+                                                With 11 years of experience in game translation,<br>I can help with a
+                                                broad range of genres and other content.<br>Promise to deliver precise,
+                                                high-quality translations.
+                                        </p>
+                                        <ul
+                                                class="mt-stack-md space-y-2 font-label-code text-label-code text-secondary">
+                                                <li class="flex items-center gap-2">>> Summary</li>
+                                                <li class="flex items-center gap-2"><span
+                                                                class="material-symbols-outlined text-sm">done_all</span>
+                                                        English &gt; Korean / Japanese &gt; Korean</li>
+                                                <li class="flex items-center gap-2"><span
+                                                                class="material-symbols-outlined text-sm">sports_esports</span>
+                                                        Games, Application, IT, Tourism, General</li>
+                                                <li class="flex items-center gap-2"><span
+                                                                class="material-symbols-outlined text-sm">build</span>
+                                                        MemoQ, RWS Trados, Phrase, Etc.</li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <!--이미지 예비용-->
+                        <div class="flex-1 w-full flex justify-center">
+                                <div class="glow-border p-6 rounded-lg bg-surface-container-low mt-stack-md text-left">
+                                        <p class="font-body-lg text-body-lg text-on-surface leading-relaxed mb-4">
+                                                Specialization</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- 11 years of
+                                                experience in translation, proofreading & reviewing</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- LQA experience
+                                                owned</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Title releasing
+                                                experience owned</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Experience full
+                                                translation of 20+ games</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Experience over
+                                                100+ game translation participation</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Game Service
+                                                Operations</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Resource
+                                                Management</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Sound Editor &
+                                                Game reviewer</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Online Broadcast
+                                                DJ (Before) & Podcast host</p>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">- Contents
+                                                Coordinator & Creator</p>
+                                        <div
+                                                class="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 z-10 mix-blend-overlay">
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Works Section -->
+                <section class="flex flex-col gap-stack-lg scroll-mt-24" id="works">
+                        <!-- PC -->
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-2 md:gap-0 border-b border-outline-variant pb-2">
+                                <h2 class="font-headline-md text-headline-md text-on-surface">WORKS - PC</h2>
+                                <div
+                                        class="font-body-md text-body-md text-on-surface-variant text-sm text-left md:text-right line-clamp-2">
+                                        * Sort in alphabetical.<br>
+										* CLICK the TITLE links to Platform's store page.
+                                </div>
+                        </div>
+                        <!-- Grid -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter works-grid"
+                                id="works-pc-grid"></div>
+
+                        <!-- Mobile -->
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-2 md:gap-0 border-b border-outline-variant pb-2">
+                                <h2 class="font-headline-md text-headline-md text-on-surface">WORKS - Mobile</h2>
+                                <div
+                                        class="font-body-md text-body-md text-on-surface-variant text-sm text-left md:text-right line-clamp-2">
+                                        * Sort in alphabetical.<br>
+										* CLICK the TITLE links to Platform's store page.
+                                </div>
+                        </div>
+                        <!-- Grid -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter works-grid"
+                                id="works-mobile-grid"></div>
+
+                        <!-- Console -->
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-2 md:gap-0 border-b border-outline-variant pb-2">
+                                <h2 class="font-headline-md text-headline-md text-on-surface">WORKS - Console</h2>
+                                <div
+                                        class="font-body-md text-body-md text-on-surface-variant text-sm text-left md:text-right line-clamp-2">
+                                        * Sort in alphabetical.<br>
+										* CLICK the TITLE links to Platform's store page.
+                                </div>
+                        </div>
+                        <!-- Grid -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter works-grid"
+                                id="works-console-grid"></div>
+                </section>
+
+                <!-- Contact Section -->
+                <section class="flex flex-col items-center justify-center py-20 text-center gap-stack-lg scroll-mt-24 bg-surface-container-lowest glow-border rounded-xl"
+                        id="contact">
+                        <div class="space-y-stack-sm">
+                                <h2
+                                        class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary glitch-hover">
+                                        CONTACT</h2>
+                                <p class="font-body-lg text-body-lg text-on-surface-variant">We look forward to hearing
+                                        from those interested in cooperating.</p>
+                        </div>
+                        <a class="btn-primary flex items-center gap-2 px-8 py-4 rounded-full font-headline-sm text-headline-sm shadow-[0_0_15px_rgba(221,183,255,0.4)]"
+                                href="mailto:kglseong24@gmail.com">
+                                <span class="material-symbols-outlined">send</span>
+                                SEND MAIL
+                        </a>
+                        <div
+                                class="font-label-code text-label-code text-on-surface-variant mt-stack-md flex flex-col gap-2">
+                                <div class="flex items-center gap-2 justify-center"><span
+                                                class="material-symbols-outlined text-sm">mail</span>
+                                        kglseong24@gmail.com</div>
+                                <div class="flex items-center gap-2 justify-center"><span
+                                                class="material-symbols-outlined text-sm">location_on</span> Seoul,
+                                        South Korea (KST)</div>
+                        </div>
+                </section>
+        </main>
+        <!-- Footer -->
+        <footer class="w-full py-stack-lg bg-surface-container-lowest border-t border-outline-variant">
+                <div
+                        class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-gutter max-w-container-max mx-auto gap-stack-md">
+                        <div class="font-label-caps text-label-caps text-on-surface-variant text-center md:text-left">
+                                2026 Seong Kim // This site is made by Google Stitch.<br><br>All copyrights to the
+                                content used on this site belong to the original copyright holders.
+                        </div>
+                        <nav class="flex gap-stack-md font-label-code text-label-code">
+                                <a class="text-on-surface-variant hover:text-secondary transition-colors transition-opacity duration-200"
+                                        href="#about">TOP</a>
+                                <a class="text-on-surface-variant hover:text-secondary transition-colors transition-opacity duration-200"
+                                        href="#works">WORKS</a>
+                                <a class="text-on-surface-variant hover:text-secondary transition-colors transition-opacity duration-200"
+                                        href="mailto:kglseong24@gmail.com">CONTACT</a>
+                        </nav>
+                </div>
+        </footer>
+        <script type="application/json" id="projects-data">
+{
+  "pc": [
+    {"title": "70s-style Robot Anime Geppy-X",
+      "image": "images/PC/01.jpg",
+      "href": "https://store.steampowered.com/app/4120310/70sstyle_Robot_Anime_GeppyX/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Action, Shoot'Em Up",
+      "description": [
+        "- Marketing resources translation (PV, Manual)"
+      ]
+    },
+    {"title": "All in Abyss: Judge the Fake",
+      "image": "images/PC/02.jpg",
+      "href": "https://store.steampowered.com/app/2514640/All_in_Abyss_Judge_the_Fake/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Roguelike Deckbuilder",
+      "description": [
+        "- In-game Text Review & Proofreading"
+      ]
+    },
+	{"title": "The Beauty Cult's NECTARMANCER",
+      "image": "images/PC/61.jpg",
+      "href": "https://store.steampowered.com/app/739790/The_Beauty_Cults_NECTARMANCER/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Adventure",
+      "description": [
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "Big Helmet Heroes",
+      "image": "images/PC/03.jpg",
+      "href": "https://store.steampowered.com/app/2397250/Big_Helmet_Heroes/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Co=op, Beat'em up",
+      "description": [
+        "- Store Text Translation (Exalted Edition)"
+      ]
+    },
+    {"title": "BLADECHIMERA",
+      "image": "images/PC/04.jpg",
+      "href": "https://store.steampowered.com/app/2671230/BLADECHIMERA/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Metroidvania, Platformer",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "Blasphemous",
+      "image": "images/PC/05.jpg",
+      "href": "https://store.steampowered.com/app/774361/Blasphemous/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Metroidvania",
+      "description": [
+        "- In-game Text Translation (Lores, Items, Etc.)",
+        "- DLC Text Translation"
+      ]
+    },
+    {"title": "Blasphemous 2",
+      "image": "images/PC/06.jpg",
+      "href": "https://store.steampowered.com/app/1975360/DRAINUS/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Metroidvania",
+      "description": [
+        "- In-game Text Translation",
+        "- Mea Culpa DLC Translation"
+      ]
+    },
+    {"title": "BOKURA: planet",
+      "image": "images/PC/07.jpg",
+      "href": "https://store.steampowered.com/app/3126150/BOKURA_planet/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Action-Adventure",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Border Bots VR",
+      "image": "images/PC/08.jpg",
+      "href": "https://store.steampowered.com/app/874440/Border_Bots_VR/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Simulation, VR",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Boyhood's End",
+      "image": "images/PC/09.jpg",
+      "href": "https://store.steampowered.com/app/2403290/Boyhoods_End/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Adventure, Retro",
+      "description": [
+        "- In-game Text Translation",
+        "- Digital Artbook Contents Translation"
+      ]
+    },
+    {"title": "Bygone Dreams",
+      "image": "images/PC/10.jpg",
+      "href": "https://store.steampowered.com/app/951620/Bygone_Dreams/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action RPG, Adventure",
+      "description": [
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "Cities: Skylines",
+      "image": "images/PC/11.jpg",
+      "href": "https://store.steampowered.com/app/255710/Cities_Skylines/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "City Builder, Simulation",
+      "description": [
+        "- Starts at 2024",
+        "- In-game Asset, text translation",
+        "- Store page translation"
+      ]
+    },
+    {"title": "Cities: Skylines II",
+      "image": "images/PC/12.jpg",
+      "href": "https://store.steampowered.com/app/949230/Cities_Skylines_II/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "City Builder, Simulation",
+      "description": [
+        "- Starts at 2024",
+        "- In-game Asset, text translation",
+        "- Store page translation"
+      ]
+    },
+    {"title": "Clock Rogue",
+      "image": "images/PC/13.jpg",
+      "href": "https://store.steampowered.com/app/2812120/Clock_Rogue/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action Rougelike",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "CONTROL",
+      "image": "images/PC/14.jpg",
+      "href": "https://store.steampowered.com/app/870780/CONTROL_Ultimate_Edition/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Supernatural, Action",
+      "description": [
+        "- In-game Text Translation (Partially, non-credit)"
+      ]
+    },
+    {"title": "Dawn Apart",
+      "image": "images/PC/15.jpg",
+      "href": "https://store.steampowered.com/app/1866300/Dawn_Apart/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Colony Sim, Base Building",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "DEAD OR ALIVE Xtreme Venus Vacation",
+      "image": "images/PC/16.jpg",
+      "href": "https://store.steampowered.com/app/958260/DEAD_OR_ALIVE_Xtreme_Venus_Vacation/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Dationg Sim, Sports",
+      "description": [
+        "- In-game Text Translation (2023-2025)"
+      ]
+    },
+    {"title": "DRAINUS",
+      "image": "images/PC/17.jpg",
+      "href": "https://store.steampowered.com/app/1975360/DRAINUS/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Action, Shoot'Em Up",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "DUNGEON RAZE",
+      "image": "images/PC/18.jpg",
+      "href": "https://store.steampowered.com/app/3281300/DUNGEON_RAZE/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Dungeon Crawler",
+      "description": [
+        "- In-game Text Review & Proofreading",
+        "- Store Text Review & Proofreading"
+      ]
+    },
+    {"title": "Enshrouded",
+      "image": "images/PC/19.jpg",
+      "href": "https://store.steampowered.com/app/1203620/_Enshrouded/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Survival, Open World",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "Fae Farm",
+      "image": "images/PC/20.jpg",
+      "href": "https://store.steampowered.com/app/2230110/Fae_Farm/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Farming Sim",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "ForeVR Bowl VR",
+      "image": "images/PC/21.jpg",
+      "href": "https://store.steampowered.com/app/2341530/ForeVR_Bowl_VR/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Sports, Bowling",
+      "description": [
+        "- In-game Text Translation",
+        "- Meta Store Text Translation"
+      ]
+    },
+    {"title": "Fuga: Melodies of Steel",
+      "image": "images/PC/22.jpg",
+      "href": "https://store.steampowered.com/app/1357860/Fuga_Melodies_of_Steel/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "JRPG, Strategy",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation",
+        "- Press Kit Translation"
+      ]
+    },
+    {"title": "Fuga: Melodies of Steel 2",
+      "image": "images/PC/23.jpg",
+      "href": "https://store.steampowered.com/app/2001340/Fuga_Melodies_of_Steel_2/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "JRPG, Strategy",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Grid Force - Mask Of The Goddess",
+      "image": "images/PC/24.jpg",
+      "href": "https://store.steampowered.com/app/1379960/Grid_Force__Mask_Of_The_Goddess/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, RPG",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Gotham Knights",
+      "image": "images/PC/25.jpg",
+      "href": "https://store.steampowered.com/app/1496790/Gotham_Knights/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Open World",
+      "description": [
+        "- In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Hell Maiden",
+      "image": "images/PC/26.jpg",
+      "href": "https://store.steampowered.com/app/3372060/Hell_Maiden/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Roguelike, Bullet Heaven",
+      "description": [
+        "- In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Heroes & Generals",
+      "image": "images/PC/27.jpg",
+      "href": "https://store.steampowered.com/app/227940/Heroes__Generals/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "FPS",
+      "description": [
+        "- In-game Text Translation (2018)"
+      ]
+    },
+    {"title": "Hungry Meem",
+      "image": "images/PC/28.jpg",
+      "href": "https://store.steampowered.com/app/3051240/Hungry_Meem/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Fantasy, Building",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation"
+      ]
+    },
+	{"title": "Jenny LeClue - Detectivu",
+      "image": "images/PC/29.jpg",
+      "href": "https://store.steampowered.com/app/319870/Jenny_LeClue__Detectivu/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Mystery, Detective",
+      "description": [
+        "- In-game Text Review And Proofreading"
+      ]
+    },
+    {"title": "KAMITSUBAKI CITY ENSEMBLE",
+      "image": "images/PC/30.jpg",
+      "href": "https://store.steampowered.com/app/2581050/KAMITSUBAKI_CITY_ENSEMBLE/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Rhythm, Music",
+      "description": [
+        "- In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Killer Frequency",
+      "image": "images/PC/31.jpg",
+      "href": "https://store.steampowered.com/app/1903620/Killer_Frequency/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Horror, Adventure",
+      "description": [
+        "- In-game Text Translation (Partially)"
+      ]
+    },
+    {"title": "KILLER INN",
+      "image": "images/PC/32.jpg",
+      "href": "https://store.steampowered.com/app/1598230/KILLER_INN/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Hero Shooter, PvP",
+      "description": [
+        "- Core terminology and system translation"
+      ]
+    },
+    {"title": "Let's Play! Oink Games",
+      "image": "images/PC/33.jpg",
+      "href": "https://store.steampowered.com/app/1933490/Lets_Play_Oink_Games/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Borad Game",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "LIBRITOPIA: Librarian Simulator",
+      "image": "images/PC/62.jpg",
+      "href": "https://store.steampowered.com/app/3372420/LIBRITOPIA_Librarian_Simulator/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Simulation, Organizing",
+      "description": [
+        "- In-game Text Review & Proofreading",
+        "- Extra Text Post-Editing (MTPE)"
+      ]
+    },
+	{"title": "Luto",
+      "image": "images/PC/34.jpg",
+      "href": "https://store.steampowered.com/app/1729740/Luto/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Psychological Horror",
+      "description": [
+        "- In-game Text Re-Translation (Quility Enhanced)",
+        "- In-game text Check (LQA)"
+      ]
+    },
+    {"title": "Maneater",
+      "image": "images/PC/35.jpg",
+      "href": "https://store.steampowered.com/app/629820/Maneater/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Nature, Dark Humor",
+      "description": [
+        "- In-game Text Translation (Partially)"
+      ]
+    },
+    {"title": "METAL EDEN",
+      "image": "images/PC/36.jpg",
+      "href": "https://store.steampowered.com/app/990380/METAL_EDEN/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Shooter, FPS",
+      "description": [
+        "- In-game Text Translation & Proofreading"
+      ]
+    },
+    {"title": "Middle-earth™: Shadow of War™",
+      "image": "images/PC/37.jpg",
+      "href": "https://store.steampowered.com/app/356190/Middleearth_Shadow_of_War/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Open World, Action, RPG",
+      "description": [
+        "- In-game Text Translation",
+        "- Press Kit Teanslation"
+      ]
+    },
+    {"title": "Monster Train 2",
+      "image": "images/PC/38.jpg",
+      "href": "https://store.steampowered.com/app/2742830/Monster_Train_2/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Roguelike Deckbuilder",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "NEEDY STREAMER OVERLOAD",
+      "image": "images/PC/39.jpg",
+      "href": "https://store.steampowered.com/app/1451940/NEEDY_STREAMER_OVERLOAD/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Visual Novel",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+	{"title": "Nighthold",
+      "image": "images/PC/63.jpg",
+      "href": "https://store.steampowered.com/app/3376960/Nighthold/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Survival, Craft",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Nobody Wants to Die",
+      "image": "images/PC/40.jpg",
+      "href": "https://store.steampowered.com/app/1939970/Nobody_Wants_to_Die/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Metroidvania",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "No More Heroes 3",
+      "image": "images/PC/41.jpg",
+      "href": "https://store.steampowered.com/app/1744330/No_More_Heroes_3/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Action, Beat'em Up",
+      "description": [
+        "- In-game Text Review & proofreading"
+      ]
+    },
+    {"title": "OneShot",
+      "image": "images/PC/60.jpg",
+      "href": "https://store.steampowered.com/app/420530/OneShot/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Indie, Story Rich",
+      "description": [
+        "- In-game Text Translation (before solstice update)"
+      ]
+    },
+    {"title": "Outward",
+      "image": "images/PC/42.jpg",
+      "href": "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "RPG, Survival",
+      "description": [
+        "- In-game Text Translation",
+        "(The Three Brothers | The Soroboreans DLC)",
+        "- Store Text Translation (Definitive Edition)"
+      ]
+    },
+    {"title": "Petit Game Collection vol.1",
+      "image": "images/PC/43.jpg",
+      "href": "https://store.steampowered.com/app/2757490/Petit_Game_Collection_vol1/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Adventure, Visual Novel",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Renown",
+      "image": "images/PC/44.jpg",
+      "href": "https://store.steampowered.com/app/1488310/Renown/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Survival, Crafting",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation"
+      ]
+    },
+	{"title": "Revenge of the Savage Planet",
+      "image": "images/PC/64.jpg",
+      "href": "https://store.steampowered.com/app/2787320/Revenge_of_the_Savage_Planet/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Adventure, Co-op",
+      "description": [
+        "- Extra In-game text Trasnlation"
+      ]
+    },
+	{"title": "Romance of the Three Kingdoms XIII",
+      "image": "images/PC/45.jpg",
+      "href": "https://store.steampowered.com/app/363150/Romance_of_the_Three_Kingdoms_XIII/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Wargame, Turn-Based Tatics",
+      "description": [
+        "- In-game text Translation"
+      ]
+    },
+    {"title": "RPG Maker MZ",
+      "image": "images/PC/46.jpg",
+      "href": "https://store.steampowered.com/app/1096900/RPG_Maker_MZ/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Game Development",
+      "description": [
+        "- Content Text Review & Proofreading"
+      ]
+    },
+    {"title": "Rusted Moss",
+      "image": "images/PC/47.jpg",
+      "href": "https://store.steampowered.com/app/1772830/Rusted_Moss/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Action, Platformer",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation",
+        "- Artbook Translation"
+      ]
+    },
+    {"title": "Sea Fantasy",
+      "image": "images/PC/48.jpg",
+      "href": "https://store.steampowered.com/app/2835110/Sea_Fantasy/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Fishing, Open World",
+      "description": [
+        "- Extra In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Sports: Renovations",
+      "image": "images/PC/49.jpg",
+      "href": "https://store.steampowered.com/app/2230960/Sports_Renovations/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Cleaning, Simulation",
+      "description": [
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "STAR WARS™: Squadrons",
+      "image": "images/PC/50.jpg",
+      "href": "https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Flight, Space",
+      "description": [
+        "- In-game Text Translation - Sub-Content Text Translation"
+      ]
+    },
+    {"title": "Stripjong - Super Real Mahjong Venus Returns",
+      "image": "images/PC/51.jpg",
+      "href": "https://store.steampowered.com/app/3718190/Stripjong__Super_Real_Mahjong_Venus_Returns/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Mahjong, Dating Sim",
+      "description": [
+        "(Adult content, requires Steam ID login)",
+        "- In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Subliminal",
+      "image": "images/PC/52.jpg",
+      "href": "https://store.steampowered.com/app/2300840/Subliminal/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Psychological Horror",
+      "description": [
+        "- In-game Text Proofreading",
+        "- Extra In-game Text Translation"
+      ]
+    },
+    {"title": "Suicide Squad: Kill the Justice League",
+      "image": "images/PC/53.jpg",
+      "href": "https://store.steampowered.com/app/315210/Suicide_Squad_Kill_the_Justice_League/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action, Open World",
+      "description": [
+        "- In-game Text Translation",
+        "- Review, Proofreading"
+      ]
+    },
+    {"title": "Tails of Iron",
+      "image": "images/PC/54.jpg",
+      "href": "https://store.steampowered.com/app/1283410/Tails_of_Iron/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action RPG, Souls-like",
+      "description": [
+        "- In-game Full Text Review"
+      ]
+    },
+    {"title": "Time Stall",
+      "image": "images/PC/55.webp",
+      "href": "https://www.meta.com/experiences/time-stall/2055554051161375/?srsltid=AfmBOop6-CvlUgvV7Ubslj4ukwXa_oM5tPAhTnUBb62HCn1cTCsirp2j",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-meta"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Adventure",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Transport Fever 2",
+      "image": "images/PC/56.jpg",
+      "href": "https://store.steampowered.com/app/1066780/Transport_Fever_2/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Simulation, Strategy",
+      "description": [
+        "- Store Text Review & Proofreading"
+      ]
+    },
+    {"title": "Turnip Boy Robs a Bank",
+      "image": "images/PC/57.jpg",
+      "href": "https://store.steampowered.com/app/2097230/Turnip_Boy_Robs_a_Bank/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Roguelite, Top-down Shooter",
+      "description": [
+        "- In-game Text Review (Demo Ver.)",
+        "- Store Text Review"
+      ]
+    },
+    {"title": "Wild West Supermarket Simulator",
+      "image": "images/PC/58.jpg",
+      "href": "https://store.steampowered.com/app/3690760/Wild_West_Supermarket_Simulator/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Simulation, Management",
+      "description": [
+        "- Beta ver. In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Yunyun Syndrome!? Rhythm Psychosis",
+      "image": "images/PC/59.jpg",
+      "href": "https://store.steampowered.com/app/3372060/Hell_Maiden/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-steam"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Rhythm, Psychological Horror",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    }
+  ],
+  "mobile": [
+    {"title": "Armor Age",
+      "image": "images/mobile/m09.jpg",
+      "href": "https://play.google.com/store/apps/details?id=com.herocraft.game.free.armorage&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Strategy",
+      "description": [
+        "- In-game Text Translation (2016-2018)"
+      ]
+    },
+    {"title": "Battle Night",
+      "image": "images/mobile/m01.png",
+      "href": "https://play.google.com/store/apps/details?id=com.feelingtouch.bn&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Action-Strategy, Battling",
+      "description": [
+        "- In-game Text Translation (2019-2020)",
+        "- Store Text Translation",
+        "- Core system & terminology translation"
+      ]
+    },
+    {"title": "Castle Duels",
+      "image": "images/mobile/m02.png",
+      "href": "https://play.google.com/store/apps/details?id=my.arena&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Strategy",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+	{"title": "Cooking Mama",
+      "image": "images/mobile/m11.png",
+      "href": "https://play.google.com/store/apps/details/COOKING_MAMA_%E4%BE%86%E7%85%AE%E9%A3%AF%E5%90%A7?id=jp.co.ofcr.cm00&hl=en_GB",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Management, Simulation",
+      "description": [
+        "- In-game Text Translation (2016-2025)"
+      ]
+    },
+    {"title": "Dead Shell",
+      "image": "images/mobile/m14.png",
+      "href": "https://play.google.com/store/apps/details?id=com.herocraft.game.free.deadshell&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Roguelike, Casual",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+	{"title": "Design My Room",
+      "image": "images/mobile/m18.png",
+      "href": "https://play.google.com/store/apps/details?id=com.langqi.myshoppingmall&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Design",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+	{"title": "Dirt Bike Unchained",
+      "image": "images/mobile/m16.png",
+      "href": "https://play.google.com/store/apps/details?id=com.moto3.third&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Racing",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+	{"title": "FANTASY LIFE i",
+      "image": "images/mobile/m03.jpg",
+      "href": "https://apps.apple.com/us/app/fantasy-life-i/id6760401505",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "JRPG, Casual",
+      "description": [
+        "- Extra In-game Text Translation"
+      ]
+    },
+	{"title": "Fuga: melodies of steel",
+      "image": "images/PC/22.jpg",
+      "href": "https://play.google.com/store/apps/details?id=com.cyberconnect2.fuga&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "JRPG, Strategy",
+      "description": [
+        "- Extra In-game Text Translation"
+      ]
+    },
+    {"title": "Hustle Castle",
+      "image": "images/mobile/m13.png",
+      "href": "https://play.google.com/store/apps/details?id=com.my.hc.rpg.kingdom.simulator&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Build & Battle, Management",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+	{"title": "Merge Mayor - Match Puzzle",
+      "image": "images/mobile/m04.png",
+      "href": "https://play.google.com/store/apps/details?id=games.starberry.idlevillage&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Merge, Puzzle",
+      "description": [
+        "- In-game Text Translation (2021)",
+        "- Core system & terminology translation"
+      ]
+    },
+    {"title": "Monster Hunter Puzzles",
+      "image": "images/mobile/m05.webp",
+      "href": "https://apps.apple.com/us/app/monster-hunter-puzzles/id1591864714",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "JP>KO",
+      "genre": "Puzzle, Tile Match",
+      "description": [
+        "- In-game Text Translation",
+        "- Store Text Translation"
+      ]
+    },
+    {"title": "Peak – Brain Games & Training",
+      "image": "images/mobile/m17.png",
+      "href": "https://play.google.com/store/apps/details?id=com.brainbow.peak.app&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Life",
+      "description": [
+        "- Content Text Translation"
+      ]
+    },
+	{"title": "Royal Revolt 2",
+      "image": "images/mobile/m06.png",
+      "href": "https://play.google.com/store/apps/details/Royal_Revolt_2_Kampf_RPG_Krieg_Strategie_Clash?id=com.flaregames.rrtournament&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Strategy, Tower Defence",
+      "description": [
+        "- Extra In-game Text Translation"
+      ]
+    },
+    {"title": "Rush Royal",
+      "image": "images/mobile/m07.png",
+      "href": "https://apps.apple.com/us/app/rush-royale-tower-defense-rpg/id1526121033",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Tower Defence, Strategy",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "SpongeBob: Krusty Cook-Off",
+      "image": "images/mobile/m08.webp",
+      "href": "https://apps.apple.com/us/app/spongebob-krusty-cook-off/id1433784188",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Simulation, Management",
+      "description": [
+        "- In-game Text Translation & Proofreading"
+      ]
+    },
+    {"title": "Spongebob SquarePants: Patty Pursuit",
+      "image": "images/mobile/m10.webp",
+      "href": "https://apps.apple.com/us/app/spongebob-patty-pursuit/id1459922619",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Platformer, Action",
+      "description": [
+        "- In-game Text Translation & Proofreading"
+      ]
+    },
+	{"title": "Star Wars™: Galaxy of Heroes",
+      "image": "images/mobile/m12.png",
+      "href": "https://play.google.com/store/apps/details/Star_Wars_Galaxy_of_Heroes?id=com.ea.game.starwarscapital_row&hl=en_GB",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Turn-Based, Role Playing",
+      "description": [
+        "- In-game Text Translation & Proofreading"
+      ]
+    },
+	{"title": "Zero City: Base building games",
+      "image": "images/mobile/m15.png",
+      "href": "https://play.google.com/store/apps/details?id=com.beingame.zc.zombie.shelter.survival&hl=en",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-apple"
+        },
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-google-play"
+        }
+      ],
+      "platform": null,
+      "lang": "EN>KO",
+      "genre": "Survival, Action",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    }
+  ],
+  "console": [
+    {"title": "Aegis of Earth: Protonovus Assault (PS3)",
+      "image": "images/console/c01.jpg",
+      "href": "https://store.playstation.com/en-us/product/UP1024-CUSA04110_00-ACQUIRESTIIM0001",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Tower Defence, Strategy",
+      "description": [
+        "- In-game Translation",
+        "- Online Manual Translation"
+      ]
+    },
+    {"title": "Akiba's Beat",
+      "image": "images/console/c02.jpg",
+      "href": "https://store.playstation.com/en-us/concept/222828?ref=pelitietofi",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Action, Role-Playing",
+      "description": [
+        "- In-game Text Review & Proofreading"
+      ]
+    },
+    {"title": "Atelier Escha & Logy Plus",
+      "image": "images/console/c03.webp",
+      "href": "https://store.playstation.com/en-us/product/UP4108-CUSA16922_00-APPA15DX00000000",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Role Playing",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Disney Music Parade -Encore-",
+      "image": "images/console/c04.jpg",
+      "href": "https://www.nintendo.com/my/games/switch/detail/70010000086818?srsltid=AfmBOoqp4C4ryY0D1ydHWflMe17U7GmoCLPy4XEmACNXLcPsk7ADrL1i",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "JP>KO",
+      "genre": "Music, Action",
+      "description": [
+        "- eShop Store Text Review"
+      ]
+    },
+    {"title": "Earthion",
+      "image": "images/console/c05.webp",
+      "href": "https://www.nintendo.com/us/store/products/earthion-switch/?srsltid=AfmBOopHB6waJLtBf-isyQiV1GF4vjPIidBw-ZuZwFJFOEbvmKgSkmCU",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "EN>KO",
+      "genre": "Action, Shooting",
+      "description": [
+        "- eShop Store Text Translation"
+      ]
+    },
+    {"title": "Fitness Boxing 3: Your Personal Trainer – Nintendo Switch™ 2 Edition",
+      "image": "images/console/c06.webp",
+      "href": "https://www.nintendo.com/us/store/products/fitness-boxing-3-your-personal-trainer-nintendo-switch-2-edition-switch-2/",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "JP>KO",
+      "genre": "Training",
+      "description": [
+        "- Package Label Text Review & Proofreading"
+      ]
+    },
+    {"title": "Fitness Boxing feat. HATSUNE MIKU",
+      "image": "images/console/c07.webp",
+      "href": "https://www.nintendo.com/us/store/products/fitness-boxing-feat-hatsune-miku-switch/",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "JP>KO",
+      "genre": "Training",
+      "description": [
+        "- Press Kit Trasnlation"
+      ]
+    },
+	{"title": "From Madness with Love",
+      "image": "images/console/c08.jpg",
+      "href": "https://store-jp.nintendo.com/item/software/D70010000091258?srsltid=AfmBOopcKM9ehjkPdh3Ps8F1mB--NpEDd0z3-C2nbrkupUy9MUhkZOz_",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "JP>KO",
+      "genre": "Adventure, Dating sim",
+      "description": [
+        "- eShop Text Review & Proofreading"
+      ]
+    },
+    {"title": "inKONBINI: One Store. Many Stories",
+      "image": "images/console/c22.jpg",
+      "href": "https://www.nintendo.com/us/store/products/inkonbini-one-store-many-stories-switch-2/?srsltid=AfmBOoqkRcVm3XIY7sd_RbouoFx0QrAUck60zRyoO06saca_Y4DDtZu9",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™2",
+      "lang": "EN>KO",
+      "genre": "Cozy, Simulation",
+      "description": [
+        "- eShop Store Text Translation",
+		"(DLC and NIntendo Switch™ 2)"
+      ]
+    },
+	{"title": "Nights of Azure",
+      "image": "images/console/c09.png",
+      "href": "https://store.playstation.com/en-id/product/UP4108-CUSA04111_00-ASIA000MASTER000",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Action",
+      "description": [
+        "- In-game text transition"
+      ]
+    },
+    {"title": "Operation Abyss: New Tokyo Legacy",
+      "image": "images/console/c10.jpg",
+      "href": "https://store.steampowered.com/app/541450/Operation_Abyss_New_Tokyo_Legacy/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Dungeon Crawler",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Phantom Breaker: Battle Grounds",
+      "image": "images/console/c11.jpg",
+      "href": "https://store.steampowered.com/app/329490/Phantom_Breaker_Battle_Grounds_Classic/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®Vita",
+      "lang": "JP>KO",
+      "genre": "Action, Beat'em Up",
+      "description": [
+        "* The link goes to Steam Store page.",
+        "- In-game text Review (Enhanced Quility)"
+      ]
+    },
+    {"title": "Picross™ : Juufuutei Raden™'s Guide for Pixel Museum",
+      "image": "images/console/c12.webp",
+      "href": "https://www.nintendo.com/us/store/products/picross-juufuutei-raden-s-guide-for-pixel-museum-switch/?srsltid=AfmBOorR848fiVZ_sqNP-rENx-D-KjOkVUGz5587xicTtP3sBwqtED9R",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "EN>KO",
+      "genre": "Puzzle, Pixel art",
+      "description": [
+        "- eShop Store Text Review & Proofreading"
+      ]
+    },
+    {"title": "Pocket Card Jockey: Ride On!",
+      "image": "images/console/c13.webp",
+      "href": "https://www.nintendo.com/us/store/products/pocket-card-jockey-ride-on-switch/?srsltid=AfmBOorMf-Lxsyfo3JaJENGUXNh228pQQoNjeXFA4ST_JEYnkXiveO_4",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "JP>KO",
+      "genre": "Tabletop, Sports",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "ROBOTICS;NOTES ELITE",
+      "image": "images/console/c14.jpg",
+      "href": "https://store.playstation.com/en-us/concept/220057",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®Vita",
+      "lang": "JP>KO",
+      "genre": "Visual Novel",
+      "description": [
+        "- In-game text Translation"
+      ]
+    },
+    {"title": "Rose & Camellia Collection",
+      "image": "images/console/c15.webp",
+      "href": "https://www.nintendo.com/us/store/products/rose-and-camellia-collection-switch/?srsltid=AfmBOop09mxVBYaS6Xf1NiHI1PsIL1XvMPME_zKHVWXOpKPswwehMK9h",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "JP>KO",
+      "genre": "Fighting",
+      "description": [
+        "- Press-kit translation"
+      ]
+    },
+    {"title": "Sports Camp: A 35-Game Adventure",
+      "image": "images/console/c16.webp",
+      "href": "https://www.nintendo.com/us/store/products/sports-camp-a-35-game-adventure-switch/",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo Switch™",
+      "lang": "EN>KO",
+      "genre": "Sports, Minigames",
+      "description": [
+        "- eShop Store Text Translation",
+		"(Base Game, Artbook, Deluxe Edition)"
+      ]
+    },
+    {"title": "Steel Empire",
+      "image": "images/console/c17.jpg",
+      "href": "https://www.nintendo.com/en-gb/Games/Nintendo-3DS-download-software/Steel-Empire-1076921.html?srsltid=AfmBOorlXtL28gvKk-M00GuoAcK3tPl5azRRx1q2mbFF9rzvpJhxM-13",
+      "icons": [
+        {
+          "type": "material",
+          "value": "sports_esports"
+        }
+      ],
+      "platform": "Nintendo 3DS™",
+      "lang": "JP>KO",
+      "genre": "Shooting",
+      "description": [
+        "- In-game Text Translation"
+      ]
+    },
+    {"title": "Steins:Gate",
+      "image": "images/console/c18.jpg",
+      "href": "https://store.steampowered.com/app/412830/STEINSGATE/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Visual Novel",
+      "description": [
+        "* The link goes to Steam Store page.",
+        "- In-game text Review (Enhanced Quility)"
+      ]
+    },
+    {"title": "Steins;Gate: My Darling's Embrace",
+      "image": "images/console/c19.jpg",
+      "href": "https://store.steampowered.com/app/970560/STEINSGATE_My_Darlings_Embrace/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Visual Novel",
+      "description": [
+        "* The link goes to Steam Store page.",
+        "- In-game text Review (Enhanced Quility)"
+      ]
+    },
+    {"title": "Steins;Gate: Linear Bounded Phenogram",
+      "image": "images/console/c20.jpg",
+      "href": "https://store.steampowered.com/app/930910/STEINSGATE_Linear_Bounded_Phenogram/",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Visual Novel",
+      "description": [
+        "* The link goes to Steam Store page.",
+        "- In-game text Review (Enhanced Quility)"
+      ]
+    },
+    {"title": "Toukiden",
+      "image": "images/console/c21.jpeg",
+      "href": "https://store.playstation.com/en-us/product/UP4108-CUSA02002_00-PKGTOUKIDEN00000",
+      "icons": [
+        {
+          "type": "iconfont",
+          "value": "fa-brands fa-playstation"
+        }
+      ],
+      "platform": "Playstation®3",
+      "lang": "JP>KO",
+      "genre": "Action Roleplay",
+      "description": [
+        "- In-game Text Translation",
+        "* Toukiden: The Age of Demons",
+        "* Toukiden: Kiwami"
+      ]
+    }
+  ]
+}
+        </script>
+        <script src="projects.js"></script>
+</body>
+
+</html>
